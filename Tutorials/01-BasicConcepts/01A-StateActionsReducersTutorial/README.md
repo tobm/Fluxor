@@ -10,7 +10,8 @@ state based on the action dispatched.
 To do this we will create a console application, as this will avoid as much UI specific code as possible.
 
 - Create a new console application.
-- Add a NuGet package reference to `Fluxor`.
+- Add a NuGet package reference to Dependency Injection (DI): Install-Package Microsoft.Extensions.DependencyInjection
+- Add a NuGet package reference to `Fluxor`: Install-Package Fluxor
 - Edit `Program.cs`. We are going to enable dependency injection and Fluxor.
 
 ```c#
